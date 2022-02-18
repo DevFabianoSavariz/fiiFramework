@@ -17,7 +17,7 @@
 const header = document.querySelector('.header')
 
 function changeHeaderWhenScroll() {
-  if (window.scrollY  >= 50) {
+  if (window.scrollY  >= 30) {
     header.classList.add('show')
   } else {
     header.classList.remove('show')
